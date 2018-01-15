@@ -36,7 +36,10 @@ MDN
   *  root1.value // still 1
   */
 var map = function(Tree) {
+  var newTree = {};
   var newTree = Tree.addChild;
+
+  newTree.map = function();
 //input - tree object
 
   //so map will iterate through our object which would go into our properties

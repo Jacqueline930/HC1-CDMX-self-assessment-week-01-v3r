@@ -35,3 +35,13 @@ MDN
   *  newTree.children[1].children[1].value // 14
   *  root1.value // still 1
   */
+var map = function(Tree) {
+  var newTree = Tree.addChild;
+//input - tree object
+
+  //so map will iterate through our object which would go into our properties
+  //which in this case would be our newchildren and their value which migh be 1
+
+//Output - new Tree object with same values from original Tree object
+
+}

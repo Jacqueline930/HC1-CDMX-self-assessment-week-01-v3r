@@ -40,6 +40,7 @@ var map = function(Tree) {
   var newTree = Tree.addChild;
 
   newTree.map = function();
+  map()
 //input - tree object
 
   //so map will iterate through our object which would go into our properties
